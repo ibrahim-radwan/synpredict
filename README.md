@@ -3,21 +3,23 @@ The lack of gold standard methodology for synergy quantification of anticancer d
 ![image](https://user-images.githubusercontent.com/44856735/121974810-91996c80-cdc3-11eb-92d6-09401d2a46f3.png)
 
 # Input Data
-For input data, download the data files from [here](https://ucstaff-my.sharepoint.com/:u:/g/personal/ibrahim_radwan_canberra_edu_au/ESMe_J-Y73JDjPKWkxgm35gBo8eT80z0Zra3U7ITzHONAg?e=DJTFP7) and decompress them.
+For input data, download the data files from [here](https://drive.google.com/drive/folders/1TmC5PjSCa0-oj551w758kZF2WluP6LK1?usp=sharing).
 
 Input Files description:
 
 1-Cell lines; list of the 76 cell lines inmplemented in SynPredict development utlising both Almanac and Oneil datasets.
 
-2-Cell lines_CCLE_Gene expression; Gene expression data for all cell lines in CCLE database.
+2-cell_line_Gene_expression_CCLE; Gene expression data for all cell lines in CCLE database.
 
-3-Drugs_Alvadesc; physicochemical properties of drugs listed in drugComb v1.3 database (Alvadesc via OCHEM).
+3-Alvadesc; physicochemical properties of drugs listed in drugComb v1.3 database (Alvadesc via OCHEM).
 
-4-Drugs_ECFP: Fingerprints of drugs listed in drugComb v1.3 database.
+4-ECFP: Fingerprints of drugs listed in drugComb v1.3 database.
 
-5-Drugs_Toxalerts;toxiciphores identified in the drugs listed in drugComb v1.3 database.(Toxalerts via OCHEM).
+5-Toxalerts;toxiciphores identified in the drugs listed in drugComb v1.3 database.(Toxalerts via OCHEM).
 
 6-Drugs_Smiles; cannonical smiles and INCHIKeys of the 4087 drugs listed in drugComb v1.3 database.
+
+7-labels of the target score and pairwise combinations (start with dataset name either Almanac or Oniel and end with score suffix as HSA, Loewe...etc)
 
 # Code implementation
 1- data preparation
