@@ -28,6 +28,7 @@ Decompress the downloaded input folder keeping the input folder in the same fold
 1- data preparation
 
 Run prepare_data script after amending the input directory if where  output  data.pkl file will be generated. Just Amend the input labels_file (line 16 to the dataset and score of interest)
+
 2- Data normalisation
 
 Run normalise_data script utlilising the data.pkl file generated from the previous stem where the output .h5 sources and target will be generated
