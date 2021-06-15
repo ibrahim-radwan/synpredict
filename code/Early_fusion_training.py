@@ -43,7 +43,7 @@ def pop_layer(model):
 
 
 # read data
-dirpath = '../data4/zip/'
+dirpath = '../input/'# or any other directory
 # source
 source_drugA_tx = h5py.File(dirpath + '/source_drugA_tx.h5', 'r')
 source_drugA_ecfp = h5py.File(dirpath + '/source_drugA_ecfp.h5', 'r')
@@ -150,7 +150,7 @@ for fold_i in range(nFolds):
     plt.legend(loc="lower left")
     plt.savefig("plot.png")
 
-    # save model
+    # save model (define the directory for the output
     model_json = model2.to_json()
     model_name_json = '../models/model4_ef/zip/model' + str(fold_i) + '.json'
     with open(model_name_json, 'w') as json_file:
