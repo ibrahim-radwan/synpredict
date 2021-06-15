@@ -43,7 +43,7 @@ def pop_layer(model):
 
 
 # read data
-dirpath = '../data4/css/'
+dirpath = '../input/'# define the directory for the input h5 files
 # Source normalised
 source_drugA_tx = h5py.File(dirpath + '/source_drugA_tx.h5', 'r')
 source_drugA_ecfp = h5py.File(dirpath + '/source_drugA_ecfp.h5', 'r')
@@ -136,7 +136,7 @@ for fold_i in range(nFolds):
     model2.reset_states()
 
 
-    # save model
+    # save model # define the directory for the output model,  indices and both predicted and measure scores for MSE calc 
     model_json = model2.to_json()
     model_name_json = '../models/model4/css/model' + str(fold_i) + '.json'
     with open(model_name_json, 'w') as json_file:
