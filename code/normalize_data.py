@@ -11,7 +11,7 @@ import h5py as h5
 import numpy as np
 
 # load data
-dirpath = '../data4/bliss/'
+dirpath = '../input/'# or any other directory
 data_file = dirpath + 'data.pkl'
 with open(data_file, 'rb') as f:
     data = pickle.load(f)
