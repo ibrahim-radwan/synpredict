@@ -22,11 +22,19 @@ Input Files description:
 7-labels of the target score and pairwise combinations (start with dataset name either Almanac or Oniel and end with score suffix as HSA, Loewe...etc)
 
 # Code implementation
+
+Decompress the downloaded input folder keeping the input folder in the same folder containing the code folder will make the script running smooth
+
 1- data preparation
-Run prepare_data script after amending the input directory
-2- Data normalisation 
+
+Run prepare_data script after amending the input directory if where  output  data.pkl file will be generated. Just Amend the input labels_file (line 16 to the dataset and score of interest)
+2- Data normalisation
+
+Run normalise_data script utlilising the data.pkl file generated from the previous stem where the output .h5 sources and target will be generated
 
 3- Training
+
+Use either Early_fusion_model.py or Intermediate_fusion_training.py for training and nominate the directory for the output model, indices and both predicted and measure scores of the validation
 
 # Citation 
 If you used our work and found the provided data helpful please cite:
