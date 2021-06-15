@@ -12,12 +12,12 @@ import pickle
 import os
 
 print("CWD: " + os.getcwd() )
-dirpath = '../data4/bliss/'
-labels_file = dirpath + "Almanac_dc_v1.3_bliss.csv"
+dirpath = '../input/'
+labels_file = dirpath + "Almanac_dc_v1.3_bliss.csv"# choose the dataset and/or score of interest frome the list of labels in the input folder started with ALmanac or Oniel and ended with the score
 chem_disc_file_tx = dirpath + "Toxalerts.csv"
 chem_disc_file_ecfp = dirpath + "ECFP.csv"
 chem_disc_file_pydes = dirpath + "Alvadesc.csv"
-sc_gene_exp_file = dirpath + "CCLE_GE_gene_attribute_matrix_standardized.csv"
+sc_gene_exp_file = dirpath + "cell_line_Gene_expression_CCLE.csv"
 
 
 # read data
