@@ -7,17 +7,17 @@ For input data, download the data files from [here](https://drive.google.com/dri
 
 Input Files description:
 
-1-Cell lines; list of the 76 cell lines inmplemented in SynPredict development utlising both Almanac and Oneil datasets.
+1-Cell lines; List of the 76 cell lines implemented in SynPredict development utilising both Almanac and Oneil datasets.
 
 2-cell_line_Gene_expression_CCLE; Gene expression data for all cell lines in CCLE database.
 
-3-Alvadesc; physicochemical properties of drugs listed in drugComb v1.3 database (Alvadesc via OCHEM).
+3-Alvadesc; Physicochemical properties of drugs listed in drugComb v1.3 database (Alvadesc via OCHEM).
 
 4-ECFP: Fingerprints of drugs listed in drugComb v1.3 database.
 
-5-Toxalerts;toxiciphores identified in the drugs listed in drugComb v1.3 database.(Toxalerts via OCHEM).
+5-Toxalerts; Toxiciphores identified in the drugs listed in drugComb v1.3 database (Toxalerts via OCHEM).
 
-6-Drugs_Smiles; cannonical smiles and INCHIKeys of the 4087 drugs listed in drugComb v1.3 database.
+6-Drugs_Smiles; Canonical smiles and INCHIKeys of the 4087 drugs listed in DrugComb v1.3 database.
 
 7-labels of the target score and pairwise combinations (start with dataset name either Almanac or Oniel and end with score suffix as HSA, Loewe...etc)
 
@@ -27,7 +27,7 @@ Decompress the downloaded input folder keeping the input folder in the same fold
 
 1- data preparation
 
-Run prepare_data script after amending the input directory to specify the destination of the output data.pkl file will be generated. Just Amend the input labels_file (line 16 to the dataset and score of interest).
+Run prepare_data script after amending the input directory to specify the destination of the output data.pkl. Just Amend the input labels_file (line 16 to the dataset and score of interest).
 
 2- Data normalisation
 
