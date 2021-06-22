@@ -3,8 +3,8 @@ The lack of gold standard methodology for synergy quantification of anticancer d
 ![image](https://user-images.githubusercontent.com/44856735/121974810-91996c80-cdc3-11eb-92d6-09401d2a46f3.png)
 
 # Input Data
-For input data, download the data files from [here](https://drive.google.com/drive/folders/1TmC5PjSCa0-oj551w758kZF2WluP6LK1?usp=sharing).
-
+-For input data, download the data files from [here](https://drive.google.com/drive/folders/1TmC5PjSCa0-oj551w758kZF2WluP6LK1?usp=sharing).
+-Furthermore,trained models for early and intermediate fusion architecture across all synergy metrics and CSS implementing either ALmanac or O'neil datasets together with input data were deposited in IEEEDataPort with DOI: 10.21227/qqeb-7v80.
 Input Files description:
 
 1-Cell lines; List of the 76 cell lines implemented in SynPredict development utilising both Almanac and Oneil datasets.
