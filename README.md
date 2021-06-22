@@ -4,6 +4,7 @@ The lack of gold standard methodology for synergy quantification of anticancer d
 
 # Input Data
 -For input data, download the data files from [here](https://drive.google.com/drive/folders/1TmC5PjSCa0-oj551w758kZF2WluP6LK1?usp=sharing).
+
 -Furthermore,trained models for early and intermediate fusion architecture across all synergy metrics and CSS implementing either ALmanac or O'neil datasets together with input data were deposited in IEEEDataPort with DOI: 10.21227/qqeb-7v80.
 Input Files description:
 
