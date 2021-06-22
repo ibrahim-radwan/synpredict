@@ -43,4 +43,6 @@ Use either Early_fusion_model.py or Intermediate_fusion_training.py for training
 # Citation 
 If you used our work and found the provided data helpful please cite:
 
+Muhammad Alsherbiny, June 22, 2021, "Prediction of Anticancer Synergistic Combinations using Multi-Modal Deep Neural Network; SynPredict", IEEE Dataport, doi: https://dx.doi.org/10.21227/qqeb-7v80.
+
 
