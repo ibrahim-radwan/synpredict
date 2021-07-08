@@ -3,7 +3,7 @@ The lack of gold standard methodology for synergy quantification of anticancer d
 ![image](https://user-images.githubusercontent.com/44856735/121974810-91996c80-cdc3-11eb-92d6-09401d2a46f3.png)
 
 # Input Data
--For input data, download the data files from [here](https://drive.google.com/drive/folders/1TmC5PjSCa0-oj551w758kZF2WluP6LK1?usp=sharing).
+-For input data, download the data files from [here](https://drive.google.com/drive/folders/1TmC5PjSCa0-oj551w758kZF2WluP6LK1?usp=sharing) or from IEEE DataPort [here](https://ieee-dataport.org/documents/prediction-anticancer-synergistic-combinations-using-multi-modal-deep-neural-network ) along the models.
 
 -Trained models for early and intermediate fusion architecture across all synergy metrics and CSS implementing either ALmanac or O'neil datasets, together with input data and scripts were deposited in IEEEDataPort with DOI: 10.21227/qqeb-7v80.
 
@@ -44,6 +44,7 @@ Use either Early_fusion_model.py or Intermediate_fusion_training.py for training
 If you used our work and found the provided data helpful please cite:
 
 Muhammad Alsherbiny, and Ibrahim Radwan June 22, 2021, "Prediction of Anticancer Synergistic Combinations using Multi-Modal Deep Neural Network; SynPredict", IEEE Dataport, doi: https://dx.doi.org/10.21227/qqeb-7v80.
-https://ieee-dataport.org/documents/prediction-anticancer-synergistic-combinations-using-multi-modal-deep-neural-network 
+
+
 
 
