@@ -45,4 +45,6 @@ If you used our work and found the provided data helpful please cite:
 
 Muhammad Alsherbiny, and Ibrahim Radwan June 22, 2021, "Prediction of Anticancer Synergistic Combinations using Multi-Modal Deep Neural Network; SynPredict", IEEE Dataport, doi: https://dx.doi.org/10.21227/qqeb-7v80.
 
+<iframe width="100%" height="600" src="https://ieee-dataport.org/documents/prediction-anticancer-synergistic-combinations-using-multi-modal-deep-neural-network/embed" frameborder="0" class="embed-textarea" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe>
+
 
