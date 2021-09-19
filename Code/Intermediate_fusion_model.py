@@ -24,7 +24,7 @@ def build_model(inp_sizes, out_size):
        models_out_list.append(model1_l2)
 
    concatenated = concatenate (models_out_list)
-   l1 = Dense(8182, activation='relu', kernel_initializer="he_normal", name='merged_layer_1')(concatenated)
+   l1 = Dense(8192, activation='relu', kernel_initializer="he_normal", name='merged_layer_1')(concatenated)
    l2 = Dropout(0.5)(l1)
    l3 = Dense(4096, activation='relu', kernel_initializer="he_normal", name='merged_layer_2')(l2)
    l4 = Dropout(0.5)(l3)
