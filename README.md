@@ -42,7 +42,7 @@ Use either Early_fusion_model.py or Intermediate_fusion_training.py for training
 
 # Citation 
 If you used our work and found the provided data helpful please cite:
-
+M. Alsherbinyet al "Trustworthy Deep Neural Network for Inferring Anticancer Synergistic Combinations," in IEEE Journal of Biomedical and Health Informatics, doi: [10.1109/JBHI.2021.3126339] (https://ieeexplore.ieee.org/document/9609536)
 Muhammad Alsherbiny, and Ibrahim Radwan June 22, 2021, "Prediction of Anticancer Synergistic Combinations using Multi-Modal Deep Neural Network; SynPredict", IEEE Dataport, doi: https://dx.doi.org/10.21227/qqeb-7v80.
 
 
