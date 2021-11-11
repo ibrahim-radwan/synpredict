@@ -40,6 +40,10 @@ Run normalise_data script utilising the data.pkl file generated from the previou
 
 Use either Early_fusion_model.py or Intermediate_fusion_training.py for training and nominate the directory for the output model, indices and both predicted and measure scores of the validation.
 
+# Supplementary.pdf
+
+Contains supplementary Table S1- S2 and Figure S1-S2 cited in the [article] (DOI: 10.1109/JBHI.2021.3126339)
+
 # Citation 
 
 Muhammad Alsherbiny et al "Trustworthy Deep Neural Network for Inferring Anticancer Synergistic Combinations," in IEEE Journal of Biomedical and Health Informatics, doi: 10.1109/JBHI.2021.3126339; https://ieeexplore.ieee.org/document/9609536
