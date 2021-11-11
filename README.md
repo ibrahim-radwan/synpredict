@@ -42,7 +42,7 @@ Use either Early_fusion_model.py or Intermediate_fusion_training.py for training
 
 # Supplementary.pdf
 
-Contains supplementary Table S1- S2 and Figure S1-S2 cited in the [article](https://ieeexplore.ieee.org/document/9609536)
+Contains supplementary Table S1- S2 and Figure S1-S2 cited in the [article](https://ieeexplore.ieee.org/document/9609536).
 
 # Citation 
 
